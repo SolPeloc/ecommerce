@@ -1,0 +1,100 @@
+
+*{
+   
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-content: center;  
+    justify-content: space-between;
+   
+}
+
+.headerLogo{
+     width: auto;
+     display:inline-block;
+     margin: 0.5em;
+     border: 10em;
+}
+#navEstilo li{
+    float: left;
+    text-align: center;
+    list-style: none;
+    margin: 2em;  
+    
+    
+}
+
+.navItem{ 
+    margin-left:25em;
+}
+
+#navEstilo{
+    position: relative;
+    top: auto;
+   
+}
+#navEstilo a:hover{
+    color: blueviolet;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+ h1{
+    font-weight: bold;
+    font-size:2em;
+    text-align: center;
+    margin: 20px;
+}
+ h2{
+    font-size: 1em;
+    text-align: center;
+    color: rgb(146, 136, 155);
+}
+
+
+
+
+#sectionContainer .containerCarta{
+ background-position: center center;
+ background-size: cover;  
+ padding: 50px; 
+ margin: 20px;
+ border-radius: 20px;
+ display: flex;
+ justify-content: center;
+   
+
+}
+
+
+.carta:first-child{
+ background-image: url(../img/banner2.png);
+ height: 500px;
+ width: 350px;
+ background-repeat: no-repeat;
+ margin: 15px;
+}
+.carta:nth-child(2){
+    background-image: url(../img/banner3.png);
+    height: 500px;
+    width: 350px;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+
+.carta:nth-child(3){
+    background-image: url(../img/banner4.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 350px;
+    margin: 15px;
+}
+
